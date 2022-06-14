@@ -1,10 +1,15 @@
 import './App.css';
-import { Chatbot } from 'react-chatbot-kit'
-import 'react-chatbot-kit/build/main.css';
 
+import { Chatbot } from 'react-chatbot-kit';
+import 'react-chatbot-kit/build/main.css'; 
 import MessageParser from './MessageParser';
 import ActionProvider from './ActionProvider';
 import config from './config';
+
+import RouterPage from './pages/RouterPage';
+
+
+
 
 function App() {
   return (
@@ -14,10 +19,11 @@ function App() {
           config={config}
           messageParser={MessageParser}
           actionProvider={ActionProvider}
-          headerText= "Uw gesprek met Lionel Messi"
+          headerText= "Uw gesprek met Nora van de Wadden"
           placeholderText='Schrijf hier uw bericht'
         />
       </header>
+      <RouterPage />
     </div>
   );
 }

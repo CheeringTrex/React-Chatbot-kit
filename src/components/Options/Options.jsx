@@ -11,7 +11,6 @@ const VacationOptions = (props) => {
         id:1 },
         {text: "Natuur", handler:() => {}, id:2 },
         {text: "Actief", handler:() => {}, id:3 },
-        {text: "Duurzaamheid", handler:() => {}, id: 4}
     ];
 
     const optionsMarkup = options.map((option) => (

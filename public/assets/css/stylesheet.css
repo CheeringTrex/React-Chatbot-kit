@@ -1,0 +1,131 @@
+/* COLOR SYSTEM */
+:root {
+  --blue: #007DE1;
+  --yellow: #FFC800;
+  --red: #FA4B00;
+  --green: #00AF4B;
+  --grey: #A5A5A5;
+}
+
+body,
+html {
+  height: 100%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(Pictures/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+
+}
+
+/* NAVIGATION BAR ------------------------------------------------------------------------------------*/
+
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+  margin: 5%;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15%;
+
+
+
+}
+
+/* hover */
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: var(--yellow);
+}
+
+/* active */
+.topnav a.active {
+  background-color: var(--grey);
+  color: white;
+}
+
+/* IMAGES ------------------------------------------------------------------------------------*/
+.map-image {
+  margin-right: 0%;
+
+}
+
+.nora {
+  margin-left: 2%;
+  margin-bottom: 0%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.waddan {
+  margin-left: 45%;
+  margin-bottom: 1%;
+}
+
+.logo {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/*GRID PAGINA ACTIVEITEN-----------------------------------------------------------------------------------------------------*/
+
+.grid { 
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 30px;
+  padding: 5%;
+  }
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  border-radius: 5%;
+}
+.grid > article img {
+  max-width: 100%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border-radius: 5%;
+   }
+.text {
+  padding: 0 20px 20px;
+  margin-left: 2%;
+  max-width: 40%;
+}
+.text > a {
+  background: var(--green);
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+.grid > article:nth-child(1) {
+  grid-column: span 2;
+}
+
+.samplephoto{
+  align-items: center;
+}
