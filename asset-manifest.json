@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Chatbot-kit/static/css/main.827aae40.css",
+    "main.js": "/React-Chatbot-kit/static/js/main.922554d0.js",
+    "static/media/Asset1.png": "/React-Chatbot-kit/static/media/Asset1.a277878e24b58d39f4a8.png",
+    "index.html": "/React-Chatbot-kit/index.html",
+    "main.827aae40.css.map": "/React-Chatbot-kit/static/css/main.827aae40.css.map",
+    "main.922554d0.js.map": "/React-Chatbot-kit/static/js/main.922554d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.827aae40.css",
+    "static/js/main.922554d0.js"
+  ]
+}
