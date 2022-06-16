@@ -25,17 +25,17 @@ class ActionProvider {
           this.addMessageToState(message)
     }
 
-    helloWorldHandler = () => {
-        const message = this.createChatBotMessage("Hallo wereld, wereld de wereld is...")
-        this.addMessageToState(message)
-    }
+    // helloWorldHandler = () => {
+    //     const message = this.createChatBotMessage("Hallo wereld, wereld de wereld is...")
+    //     this.addMessageToState(message)
+    // }
 
-    todosHandler = () => {
-        const message = this.createChatBotMessage("Hier zijn je todos", {
-            widget: "todos"
-        });
-        this.addMessageToState(message)
-    }
+    // todosHandler = () => {
+    //     const message = this.createChatBotMessage("Hier zijn je todos", {
+    //         widget: "todos"
+    //     });
+    //     this.addMessageToState(message)
+    // }
 
     addMessageToState = (message) => {
         this.setState(prevState => ({

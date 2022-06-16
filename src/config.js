@@ -1,7 +1,6 @@
 // Config starter code
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
-import Todos from "./components/Todos/Todos";
 import CoBotAvatar from "./components/CoBotAvatar/CoBotAvatar";
 import VacationOptions from "./components/Options/Options";
 import LinkList from "./components/LinkList/LinkList";
@@ -46,18 +45,18 @@ const config = {
             props: {
                 options: [
                     {
-                    text: "Rust aan de wadden",
-                    url: "https://www.youtube.com/watch?v=eBG7P-K-r1Y&ab_channel=foofightersVEVO",
+                    text: "Museum 't Fiskershúske",
+                    url: "https://www.visitwadden.nl/nl/bezoeken/accommodaties/175210561/museum-t-fiskershuske",
                     id: 1,
                     },
                     {
-                    text: "De wadden zijn rustig",
-                    url: "https://www.youtube.com/watch?v=h_L4Rixya64&ab_channel=foofightersVEVO",
+                    text: "Yoga op Vlieland",
+                    url: "https://vlieland.net/nl/search?search=yoga",
                     id: 2,
                     },
                     {
-                    text: "Voor rust, ga naar de wadden!",
-                    url: "https://www.youtube.com/watch?v=0hu1IMp0-yY&ab_channel=foofightersVEVO",
+                    text: "De Koffiesilo",
+                    url: "https://www.visitwadden.nl/nl/bezoeken/accommodaties/1877693028/de-koffiesilo",
                     id: 3,
                     }
                     
@@ -65,11 +64,11 @@ const config = {
                 ]
             }
         },
-        {
-            widgetName: "todos",
-            widgetFunc: (props) => <Todos {...props} />,
-            mapStateToProps: ["todos"],   
-        },
+        // {
+        //     widgetName: "todos",
+        //     widgetFunc: (props) => <Todos {...props} />,
+        //     mapStateToProps: ["todos"],   
+        // },
     ],
   }
 

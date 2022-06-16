@@ -1,6 +1,6 @@
 import React from "react";
 
-import BotAvatar from "./Asset1.png";
+import BotAvatar from "./Asset8.png";
 import './CoBotAvatar.css'
 
 const CoBotAvatar = () => {

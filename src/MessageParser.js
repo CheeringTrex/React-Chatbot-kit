@@ -12,13 +12,13 @@ class MessageParser {
         this.actionProvider.handleRustList()
       }
 
-      if (lowercase.includes("hello world")){
-          this.actionProvider.helloWorldHandler()
-      }
+      // if (lowercase.includes("hello world")){
+      //     this.actionProvider.helloWorldHandler()
+      // }
 
-      if (lowercase.includes("todos") || (lowercase.includes("messi"))) {
-        this.actionProvider.todosHandler()
-      }
+      // if (lowercase.includes("todos") || (lowercase.includes("messi"))) {
+      //   this.actionProvider.todosHandler()
+      // }
     }
   }
   
