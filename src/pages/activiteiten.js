@@ -18,7 +18,7 @@ export default function Activiteiten() {
     
         <main class="grid">
             <article>
-                <img src="Pictures/acti1.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti1.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Seamlessly visualize quality</h3>
                     <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
@@ -26,7 +26,7 @@ export default function Activiteiten() {
                 </div>
             </article>
             <article>
-                <img src="Pictures/acti2.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti2.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Completely Synergize</h3>
                     <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration
@@ -35,7 +35,7 @@ export default function Activiteiten() {
                 </div>
             </article>
             <article>
-                <img src="Pictures/acti3.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti3.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Dynamically Procrastinate</h3>
                     <p>Completely synergize resource taxing relationships via premier niche markets.</p>
@@ -43,7 +43,7 @@ export default function Activiteiten() {
                 </div>
             </article>
             <article>
-                <img src="Pictures/acti4.jfif" alt="Sample photo" class="samplephoto" />
+                <img src="./assets/img/acti4.jfif" alt="Sample photo" class="samplephoto" />
                 <div class="text">
                     <h3>Best in class</h3>
                     <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
@@ -51,7 +51,7 @@ export default function Activiteiten() {
                 </div>
             </article>
             <article>
-                <img src="Pictures/acti5.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti5.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Dynamically innovate supply chains</h3>
                     <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
@@ -59,7 +59,7 @@ export default function Activiteiten() {
                 </div>
             </article>
             <article>
-                <img src="Pictures/acti6.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti6.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Sanity check</h3>
                     <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
@@ -67,7 +67,7 @@ export default function Activiteiten() {
                 </div>
             </article>
             <article>
-                <img src="Pictures/acti1.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti1.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Seamlessly visualize quality</h3>
                     <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
@@ -76,7 +76,7 @@ export default function Activiteiten() {
             </article>
     
             <article>
-                <img src="Pictures/acti2.jfif" alt="Sample photo" />
+                <img src="./assets/img/acti2.jfif" alt="Sample photo" />
                 <div class="text">
                     <h3>Completely Synergize</h3>
                     <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration
@@ -88,8 +88,8 @@ export default function Activiteiten() {
     
         <div class="wrapper">
             <div>
-                <img src="Pictures/Nora.png" height="250rem" class="nora" />
-                <img src="Pictures/ballon.svg" height="250rem" class="textballon" />
+                <img src="../assets/img/Nora.png" height="250rem" class="nora" />
+                <img src="./assets/img/ballon.svg" height="250rem" class="textballon" />
             </div>
         </div>
         </React.Fragment>

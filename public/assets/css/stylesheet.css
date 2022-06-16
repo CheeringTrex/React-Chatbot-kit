@@ -13,11 +13,11 @@ html {
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(Pictures/background.jpg);
+  background-image: url('../img/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left;
-
+  max-height: 100vh;
 }
 
 /* NAVIGATION BAR ------------------------------------------------------------------------------------*/

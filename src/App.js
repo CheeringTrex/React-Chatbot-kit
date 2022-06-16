@@ -6,7 +6,8 @@ import MessageParser from './MessageParser';
 import ActionProvider from './ActionProvider';
 import config from './config';
 
-import RouterPage from './pages/RouterPage';
+import Home from './pages/Home';
+// import RouterPage from './pages/RouterPage';
 
 
 
@@ -14,6 +15,7 @@ import RouterPage from './pages/RouterPage';
 function App() {
   return (
     <div className="App">
+       <Home />
       <header className="App-header">
         <Chatbot 
           config={config}
@@ -23,7 +25,6 @@ function App() {
           placeholderText='Schrijf hier uw bericht'
         />
       </header>
-      <RouterPage />
     </div>
   );
 }
