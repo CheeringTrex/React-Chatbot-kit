@@ -6,7 +6,7 @@ import MessageParser from './MessageParser';
 import ActionProvider from './ActionProvider';
 import config from './config';
 
-import Home from './pages/Home';
+import Home from './pages/home';
 // import RouterPage from './pages/RouterPage';
 
 
